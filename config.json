@@ -1,7 +1,7 @@
 {
-  "base_url": "https://danbrazier.netlify.app/",
   "site_title": "Dan Brazier - Strategy, Design and Experience",
-  "site_description": "Hey! I'm Dan Brazier, an engineer and music nerd, currently living in the UK.",
+  "twitter_account": "danbrazieruk",
+  "base_url": "https://danbrazier.netlify.app",
   "site_keywords": [
     {
       "keyword": "Next.js"
@@ -13,9 +13,10 @@
       "keyword": "React"
     }
   ],
-  "posts_per_page": 10,
+  "site_description": "Hey! I'm Dan Brazier, an engineer and music nerd, currently living in the UK.",
   "linkedin_account": "danbrazieruk",
   "dribbble_account": "danbrazieruk",
-  "twitter_account": "danbrazieruk",
-  "github_account": "danbrazieruk"
+  "github_account": "danbrazieruk",
+  "social_handle": "danbrazieruk",
+  "posts_per_page": 10
 }
