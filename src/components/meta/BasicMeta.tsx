@@ -29,11 +29,12 @@ export default function BasicMeta({
         content={
           keywords
             ? keywords.join(",")
-            : config.site_keywords.map((it) => it.keyword).join(",")
+            : config.site_keywords.map((it) => it.keyword).join(", ")
         }
       />
       {author ? <meta name="author" content={author} /> : null}
       <link rel="canonical" href={config.base_url + url} />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     </Head>
   );
 }
