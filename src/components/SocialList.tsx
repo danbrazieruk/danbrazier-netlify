@@ -31,16 +31,6 @@ export function SocialList({}) {
 
       
 
-      {/* Dribbble */}
-      <a
-        title="Dribbble"
-        href={`https://dribble.com/${config.dribbble_account}`}
-        target="_blank"
-        rel="nofollow noopener"
-      >
-        <Dribbble width={24} height={24} fill={"#222"} />
-      </a>
-
       <style jsx>{`
         a {
           display: inline-block;
