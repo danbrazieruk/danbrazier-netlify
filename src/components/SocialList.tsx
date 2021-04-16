@@ -32,7 +32,7 @@ export function SocialList({}) {
       {/* LinkedIn */}
       <a
         title="LinkedIn"
-        href={`https://linkedin.com/in/${config.twitter_account}`}
+        href={`https://linkedin.com/in/${config.linkedin_account}`}
         target="_blank"
         rel="nofollow noopener"
       >
@@ -42,7 +42,7 @@ export function SocialList({}) {
       {/* Dribbble */}
       <a
         title="Dribbble"
-        href={`https://dribble.com/${config.social_handle}`}
+        href={`https://dribble.com/${config.dribbble_account}`}
         target="_blank"
         rel="nofollow noopener"
       >
