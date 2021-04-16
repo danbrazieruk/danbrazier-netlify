@@ -42,7 +42,7 @@ export function SocialList({}) {
       {/* Dribbble */}
       <a
         title="Dribbble"
-        href={`https://dribble.com/${config.twitter_account}`}
+        href={`https://dribble.com/${config.social_handle}`}
         target="_blank"
         rel="nofollow noopener"
       >
