@@ -29,15 +29,7 @@ export function SocialList({}) {
         <Twitter width={24} height={24} fill={"#222"} />
       </a>
 
-      {/* LinkedIn */}
-      <a
-        title="LinkedIn"
-        href={`https://linkedin.com/in/${config.linkedin_account}`}
-        target="_blank"
-        rel="nofollow noopener"
-      >
-        <LinkedIn width={24} height={24} fill={"#222"} />
-      </a>
+      
 
       {/* Dribbble */}
       <a
