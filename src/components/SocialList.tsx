@@ -3,7 +3,7 @@ import Twitter from "../assets/twitter-alt.svg";
 import GitHub from "../assets/github-alt.svg";
 import LinkedIn from "../assets/linkedin-alt.svg";
 import Dribbble from "../assets/dribbble-alt.svg";
-import {config} from "../lib/config";
+import config from "../lib/config";
 
 export function SocialList({}) {
   return (
@@ -32,7 +32,7 @@ export function SocialList({}) {
       {/* LinkedIn */}
       <a
         title="LinkedIn"
-        href={`https://linkedin.com/in/${config.linkedin_account}`}
+        href={`https://linkedin.com/in/${config.twitter_account}`}
         target="_blank"
         rel="nofollow noopener"
       >
@@ -42,7 +42,7 @@ export function SocialList({}) {
       {/* Dribbble */}
       <a
         title="Dribbble"
-        href={`https://dribble.com/${config.dribbble_account}`}
+        href={`https://dribble.com/${config.twitter_account}`}
         target="_blank"
         rel="nofollow noopener"
       >
